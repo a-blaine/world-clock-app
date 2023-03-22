@@ -35,6 +35,11 @@ h2 {
   box-shadow: 2px 2px 10px rgb(171, 170, 170);
 }
 
+.container a {
+  text-decoration: none;
+  font-weight: bold;
+}
+
 .city {
   border-bottom: 1px dashed rgba(0, 0, 0, 0.2);
   display: flex;
@@ -66,11 +71,6 @@ h2 {
 
 .division {
   color: rgb(161, 161, 161);
-}
-
-.container a {
-  text-decoration: none;
-  font-weight: bold;
 }
 
 .container a:hover {
