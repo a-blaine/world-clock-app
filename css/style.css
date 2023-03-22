@@ -64,6 +64,19 @@ h2 {
   line-height: 48px;
 }
 
+.division {
+  color: rgb(161, 161, 161);
+}
+
+.container a {
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.container a:hover {
+  color: rgb(145, 105, 182);
+}
+
 footer {
   font-family: monospace;
   font-size: 14px;
@@ -76,8 +89,4 @@ footer a {
 
 footer a:hover {
   font-weight: 600;
-}
-
-.division {
-  color: rgb(161, 161, 161);
 }
