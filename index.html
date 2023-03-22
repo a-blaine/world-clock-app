@@ -12,27 +12,91 @@
   <body>
     <div class="container">
       <h1>World clock</h1>
-      <select id="cities">
-        <option value="">Select a city...</option>
-        <option value="">Seattle</option>
-        <option value="">London</option>
-        <option value="">Seoul</option>
-        <option value="">Hangzhou</option>
-        <option value="">Stockholm</option>
+      <select id="city">
+        <option value="" class="division">Select a city...</option>
+        <option value="America/Los_Angeles">Los Angeles</option>
+        <option value="Asia/Seoul">Seoul</option>
+        <option value="Asia/Shanghai">Shanghai</option>
+        <option value="" class="division">--Europe--</option>
+        <option value="Europe/Amsterdam">Amsterdam</option>
+        <option value="Europe/Andorra">Andorra</option>
+        <option value="Europe/Astrakhan">Astrakhan</option>
+        <option value="Europe/Athens">Athens</option>
+        <option value="Europe/Belfast">Belfast</option>
+        <option value="Europe/Belgrade">Belgrade</option>
+        <option value="Europe/Berlin">Berlin</option>
+        <option value="Europe/Bratislava">Bratislava</option>
+        <option value="Europe/Brussels">Brussels</option>
+        <option value="Europe/Bucharest">Bucharest</option>
+        <option value="Europe/Budapest">Budapest</option>
+        <option value="Europe/Busingen">Busingen</option>
+        <option value="Europe/Chisinau">Chisinau</option>
+        <option value="Europe/Copenhagen">Copenhagen</option>
+        <option value="Europe/Dublin">Dublin</option>
+        <option value="Europe/Gibraltar">Gibraltar</option>
+        <option value="Europe/Guernsey">Guernsey</option>
+        <option value="Europe/Helsinki">Helsinki</option>
+        <option value="Europe/Isle_of_Man">Isle of Man</option>
+        <option value="Europe/Istanbul">Istanbul</option>
+        <option value="Europe/Jersey">Jersey</option>
+        <option value="Europe/Kaliningrad">Kaliningrad</option>
+        <option value="Europe/Kiev">Kiev</option>
+        <option value="Europe/Kirov">Kirov</option>
+        <option value="Europe/Lisbon">Lisbon</option>
+        <option value="Europe/Ljubljana">Ljubljana</option>
+        <option value="Europe/London">London</option>
+        <option value="Europe/Luxembourg">Luxembourg</option>
+        <option value="Europe/Madrid">Madrid</option>
+        <option value="Europe/Malta">Malta</option>
+        <option value="Europe/Mariehamn">Mariehamn</option>
+        <option value="Europe/Minsk">Minsk</option>
+        <option value="Europe/Monaco">Monaco</option>
+        <option value="Europe/Moscow">Moscow</option>
+        <option value="Europe/Nicosia">Nicosia</option>
+        <option value="Europe/Oslo">Oslo</option>
+        <option value="Europe/Paris">Paris</option>
+        <option value="Europe/Podgorica">Podgorica</option>
+        <option value="Europe/Prague">Prague</option>
+        <option value="Europe/Riga">Riga</option>
+        <option value="Europe/Rome">Rome</option>
+        <option value="Europe/Samara">Samara</option>
+        <option value="Europe/San_Marino">San Marino</option>
+        <option value="Europe/Sarajevo">Sarajevo</option>
+        <option value="Europe/Saratov">Saratov</option>
+        <option value="Europe/Simferopol">Simferopol</option>
+        <option value="Europe/Skopje">Skopje</option>
+        <option value="Europe/Sofia">Sofia</option>
+        <option value="Europe/Stockholm">Stockholm</option>
+        <option value="Europe/Tallinn">Tallinn</option>
+        <option value="Europe/Tirane">Tirane</option>
+        <option value="Europe/Tiraspol">Tiraspol</option>
+        <option value="Europe/Ulyanovsk">Ulyanovsk</option>
+        <option value="Europe/Uzhgorod">Uzhgorod</option>
+        <option value="Europe/Vaduz">Vaduz</option>
+        <option value="Europe/Vatican">Vatican</option>
+        <option value="Europe/Vienna">Vienna</option>
+        <option value="Europe/Vilnius">Vilnius</option>
+        <option value="Europe/Volgograd">Volgograd</option>
+        <option value="Europe/Warsaw">Warsaw</option>
+        <option value="Europe/Zagreb">Zagreb</option>
+        <option value="Europe/Zaporozhye">Zaporozhye</option>
+        <option value="Europe/Zurich">Zurich</option>
       </select>
-      <div class="city" id="seattle">
-        <div>
-          <h2>Seattle</h2>
-          <div class="date"></div>
+      <div id="cities">
+        <div class="city" id="london">
+          <div>
+            <h2>London</h2>
+            <div class="date"></div>
+          </div>
+          <div class="time"></div>
         </div>
-        <div class="time"></div>
-      </div>
-      <div class="city" id="london">
-        <div>
-          <h2>London</h2>
-          <div class="date"></div>
+        <div class="city" id="seattle">
+          <div>
+            <h2>Seattle</h2>
+            <div class="date"></div>
+          </div>
+          <div class="time"></div>
         </div>
-        <div class="time"></div>
       </div>
     </div>
     <footer>
